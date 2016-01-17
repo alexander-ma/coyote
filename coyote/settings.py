@@ -22,6 +22,12 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = '2hw@+-d*i312#m@ad71r)1q)c8=r-!auqcn9s$8@7%h=mazo!h'
 
+<<<<<<< HEAD
+=======
+TWILIO_ACCOUNT_SID = 'AC0efcecadadf271dda76f44c41111e345'
+TWILIO_AUTH_TOKEN = '234321480deab317429df46b3c073a4b'
+
+>>>>>>> be8d88bdb6587541493f2c93f91ebdbc8d0618eb
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
@@ -38,6 +44,10 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'recipes',
+<<<<<<< HEAD
+=======
+    'django_twilio',
+>>>>>>> be8d88bdb6587541493f2c93f91ebdbc8d0618eb
 ]
 
 MIDDLEWARE_CLASSES = [

@@ -1,0 +1,9 @@
+{% for key, value in recipe.items %}
+<p>
+  {{ key }} : {{ value }}
+</p>
+{% endfor %}
+
+<h1>{{ recipe.title }}</h1>
+
+{{ directions.instructions | safe }}
